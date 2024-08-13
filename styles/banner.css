@@ -1,0 +1,193 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+CU:wght@100..400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: #1c1c1c; */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+}
+
+.header {
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sitename {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+.material-icons{
+    color: white;
+}
+.headbtn {
+    margin-left: 20px;
+    background-color: #141414;
+    border: 2px solid #2f2f2f;
+    border-radius: 20px;
+    justify-content: flex-end;
+    padding: 6px;
+}
+
+.hbtn {
+    color: white;
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 2px 0px 0px;
+    cursor: pointer;
+}
+.hbtn-special{
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+}
+
+/* banner starts */
+.banner{
+    border: 1px solid red;
+    background-color: #1c1c1c;
+    background-image: linear-gradient(#141414, #222222, #141414);
+    display: flex;
+}
+.banner-part-1{
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+.banner-part-1 > p{
+    line-height: 1;
+    font-weight: 500;
+    font-size: 65px;
+    color: white;
+}
+.banner-part-1 > h1{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner-part-1 > p > span{
+    font-family: "Grey Qo", cursive;
+    font-size: 110px;
+}
+.banner-part-1 > h1{
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner-btn > button{
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.banner-btn-1{
+    background-color: rgb(230, 83, 60);
+    color: white;
+}
+.banner-btn-2{
+    background-color: black;
+    color: white;
+}
+
+.banner-part-2{
+    width: 30%;
+    margin-left: 15%;
+    height: 580px;
+    position : relative;
+}
+.banner-box-1{
+    /* border: 1px solid transparent; */
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+.banner-box-1> h1{
+    color: white;
+    text-align: center;
+}
+.banner-box-1> p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+
+.banner-box-2{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    width: 180px;
+    display: flex;
+    flex-shrink: 1;
+}
+.banner-box-2> .icon{
+
+}
+.banner-box-2> .iconx > h1{
+    color: white;
+    text-align: center;
+}
+.banner-box-2> .iconx > p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 576px) {
+    .menu-bar{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+      
+    }
+    .headbtn{
+        display: none
+    }
+    .menu-bar{
+        margin-left: 60%;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-part-1 > p{
+        font-size: 30px;
+    }
+    .banner-part-1 > p > span{
+        font-size: 55px;
+    }
+    .banner-box-1{
+        top: 0%;
+        left: 120%;
+        width: 150px
+    }
+  }
