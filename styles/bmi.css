@@ -1,0 +1,142 @@
+.bmi {}
+
+.bmi-header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bmi-header h1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+}
+
+.bmi-header p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+}
+
+.bmi-main {
+    background-color: #1A1A1A;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-main-1{
+    width: 30%;
+}
+.bmi-main-1 h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.bmi-main-1 table {
+    border-collapse: collapse;
+    /* width: 30%; */
+    border: 1px solid #393939;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #393939;
+}
+
+
+th {
+    color: white;
+}
+td{
+    color: #919191
+}
+
+
+form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+form h2{
+    color: white;
+}
+form h2, p{
+    margin-left: 20px;
+}
+.bmi-main-2 h1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+}
+
+.bmi-main-2 p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+    /* text-align: center; */
+}
+
+.bmi-main-2 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bmi-main-2 input, select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #757575;
+}
+
+.bmi-main-2 button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 20px;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#activity{
+    margin-left: 20px;
+    width: 96%
+}
+
+form button{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .bmi-header {
+        text-align: left;
+        margin-left: 50px;
+    }
+    .bmi-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .bmi-main-1{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
