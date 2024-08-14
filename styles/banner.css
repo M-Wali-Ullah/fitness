@@ -66,13 +66,12 @@ header {
 
 /* banner starts */
 .banner{
-    border: 1px solid red;
     background-color: #1c1c1c;
     background-image: linear-gradient(#141414, #222222, #141414);
     display: flex;
 }
 .banner-part-1{
-    width: 35%;
+    width: 55%;
     margin-left: 15%;
     margin-top: 40px;
 }
@@ -95,9 +94,10 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 .banner-btn > button{
-    padding: 15px 32px;
-    font-size: 16px;
+    padding: 10px 15px;
+    font-size: 12px;
     border-radius: 15px;
+    border: none;
 }
 .banner-btn-1{
     background-color: rgb(230, 83, 60);
@@ -106,6 +106,7 @@ header {
 .banner-btn-2{
     background-color: black;
     color: white;
+
 }
 
 .banner-part-2{
@@ -146,7 +147,9 @@ header {
     flex-shrink: 1;
 }
 .banner-box-2> .icon{
-
+    width: 20%; 
+}
+.banner-box-2> .iconx{
 }
 .banner-box-2> .iconx > h1{
     color: white;
@@ -184,6 +187,10 @@ header {
     }
     .banner-part-1 > p > span{
         font-size: 55px;
+    }
+    .banner-part-2{
+        margin-top: 50px;
+        
     }
     .banner-box-1{
         top: 0%;
