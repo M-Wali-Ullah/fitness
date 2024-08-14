@@ -22,7 +22,7 @@
     background-color: #1A1A1A;
     padding: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .bmi-main-1{
     width: 30%;

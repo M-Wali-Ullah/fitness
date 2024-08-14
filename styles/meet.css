@@ -1,0 +1,114 @@
+.meet{
+    margin-bottom: 70px;
+}
+
+.meet-header h2{
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.meet-header p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+    text-align: center;
+}
+.meet-main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 80px;
+}
+.meet-main h1{
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+}
+.meet-main p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.meet-main h1, p{
+    position: relative;
+    top: 70%
+}
+.part1{
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.part1{
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.part2{
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("../images/trainer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.part3{
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("../images/trainer3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.part4{
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("../images/trainer4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.part5{
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("../images/trainer5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.part6{
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("../images/trainer6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .meet-main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
