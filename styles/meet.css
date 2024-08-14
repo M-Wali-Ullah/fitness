@@ -32,13 +32,13 @@
     color: white;
     margin-left: 20px;
 }
-.meet-main p{
+.meet-main h6{
     font-size: 20px;
     margin-top: 20px;
     margin-left: 20px;
     color: #8c8c8c;
 }
-.meet-main h1, p{
+.meet-main>.textfortrainer>h1,h6{
     position: relative;
     top: 70%
 }
