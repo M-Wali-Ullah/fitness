@@ -1,0 +1,76 @@
+
+.first{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+.fitness{
+    padding: 30px;
+}
+.fitness h3{
+    margin-left: 20px;
+}
+.fitness h3{
+    color: rgb(230, 83, 60);
+    font-size: 60px;
+    font-weight: 800;
+    font-style: italic;
+}
+.fitness p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.getstarted-1{
+    padding: 30px;
+}
+.getstarted-1 h3{
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+}
+.getstarted-1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.getstarted-2{
+    padding: 30px;
+}
+.getstarted-2 h3{
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+}
+.getstarted-2 p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.line{
+    border: 1px solid #313131;
+    width: 90%;
+    margin: 0 auto;
+}
+footer> .last> p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color: #8c8c8c;
+    text-align: center;
+}
+@media screen and (max-width: 576px) {
+    .first{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+}
