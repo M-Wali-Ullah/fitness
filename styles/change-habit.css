@@ -1,0 +1,82 @@
+.change-habit {
+    background-color: #000000;
+}
+
+.change-habit-header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.change-habit-header>h2 {
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.change-habit-header>p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+    text-align: center;
+}
+
+.change-habit-main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.change-habit-main img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.habit-header h4 {
+    color: white;
+    text-align: center;
+}
+.habit-header p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+    text-align: center;
+}
+
+.habit1 {
+    width: 23%;
+}
+.habit2{
+    width: 23%;
+}
+.habit3{
+    width: 23%;
+}
+.habit4{
+    width: 23%;
+}
+
+@media screen and (max-width: 576px) {
+    .change-habit-main {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .habit1 {
+        width: 85%;
+    }
+    .habit2{
+        width: 85%;
+    }
+    .habit3{
+        width: 85%;
+    }
+    .habit4{
+        width: 85%;
+    }
+}

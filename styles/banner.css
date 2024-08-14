@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    background-color: #1c1c1c;
+    background-color: #141414;
 }
 
 .header {
@@ -67,7 +67,7 @@ header {
 /* banner starts */
 .banner{
     background-color: #1c1c1c;
-    background-image: linear-gradient(#141414, #222222, #141414);
+    background-image: linear-gradient(#141414, #222222, #000000);
     display: flex;
 }
 .banner-part-1{
@@ -161,6 +161,10 @@ header {
     text-align: center;
 }
 
+
+.change-habit-header{
+    
+}
 
 @media screen and (min-width: 576px) {
     .menu-bar{
